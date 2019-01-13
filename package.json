@@ -1,0 +1,34 @@
+{
+  "name": "prettier-talk",
+  "version": "1.0.0",
+  "description": "Content for talk on Prettier at Cambridge Javascript Meetup",
+  "main": "index.js",
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "3.3.0",
+    "eslint-plugin-prettier": "3.0.1",
+    "husky": "^1.3.1",
+    "prettier": "1.15.3",
+    "pretty-quick": "^1.8.0"
+  },
+  "scripts": {
+    "pretest": "eslint src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnwalley/prettier-talk.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnwalley/prettier-talk/issues"
+  },
+  "homepage": "https://github.com/johnwalley/prettier-talk#readme"
+}
