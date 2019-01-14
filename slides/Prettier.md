@@ -62,9 +62,6 @@ slidenumbers: false
 
 # What is Prettier?
 
-- An **opinionated** code formatter
-- Has few options
-- Supports many languages
 - Integrates with most editors
 
 ---
@@ -99,7 +96,6 @@ slidenumbers: false
 
 - You press save and code is formatted
 - No need to discuss style in code review
-- Saves you time and energy
 
 ---
 
@@ -111,8 +107,8 @@ slidenumbers: false
 - Building and enforcing a style guide
 - Helping newcomers
 - Writing code
-- Easy to adopt
 - Clean up an existing codebase
+- Easy to adopt
 
 ---
 [.background-color: #000000]
@@ -144,20 +140,6 @@ npm install prettier --save-dev --save-exact
 
 ---
 
-# Partial File Formatting
-
-Great for when you want partial file formatting on your changed/staged files.
-
-[github.com/nrwl/precise-commits](https://github.com/nrwl/precise-commits)
-
----
-
-# Configuring Prettier
-
-^ Options and Configuration File
-
----
-
 # Prettier vs Linters
 [.build-lists: true]
 [.list: alignment(left)]
@@ -170,6 +152,12 @@ Linters have two categories of rules:
 ^ Prettier alleviates the need for this whole category of rules! Prettier is going to reprint the entire program from scratch in a consistent way, so it's not possible for the programmer to make a mistake there anymore :)
 
 ^ Prettier does nothing to help with those kind of rules. They are also the most important ones provided by linters as they are likely to catch real bugs with your code!
+
+---
+
+# Configuring Prettier
+
+^ Options and Configuration File
 
 ---
 [.text: #ffffff]
