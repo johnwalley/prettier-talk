@@ -43,7 +43,6 @@ slidenumbers: false
 
 - An **opinionated** code formatter
 - Has few options
-- Supports many languages
 
 ---
 [.list: alignment(left)]
@@ -56,13 +55,6 @@ slidenumbers: false
 - JSON
 - CSS
 - HTML
-
----
-[.list: alignment(left)]
-
-# What is Prettier?
-
-- Integrates with most editors
 
 ---
 [.list: alignment(left)]
