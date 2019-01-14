@@ -1,11 +1,12 @@
-function sum(array, iteratee) {
+function sum(array) {
   let result;
 
   for (const value of array) {
-    const current = iteratee(value);
-    if (current !== undefined) {
+    if (value !== undefined) {
       result = result === undefined ? current : result + current;
     }
   }
   return result;
 }
+
+sum([1, 2, 3, 4, 5]);
