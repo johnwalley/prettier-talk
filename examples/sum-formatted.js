@@ -3,7 +3,7 @@ function sum(array) {
 
   for (const value of array) {
     if (value !== undefined) {
-      result = result === undefined ? current : result + current;
+      result = result === undefined ? value : result + value;
     }
   }
   return result;

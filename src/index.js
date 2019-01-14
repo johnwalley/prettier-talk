@@ -2,7 +2,7 @@ function sum( array ) {
   let result
 
   for ( const value of array ) {
-    if (value !== undefined) { result = result === undefined?current:result+current }
+    if (value !== undefined) { result = result === undefined?value:result+value }
   }
   return result
 }
