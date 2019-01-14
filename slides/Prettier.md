@@ -1,13 +1,10 @@
 slidenumbers: false
 
-[.background-color: #000000]
-
----
-
 # Prettier
-
-[.text: #ffffff][.header: #ffffff]
-[.background-color: #000000][.footer: www.mulberryhousesoftware.com - www.github.com/johnwalley - @dowhatimean]
+[.text: #ffffff]
+[.header: #ffffff]
+[.background-color: #000000]
+[.footer: www.mulberryhousesoftware.com - github.com/johnwalley - @dowhatimean]
 
 ![](title.png)
 
@@ -16,15 +13,11 @@ slidenumbers: false
 ^ Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
 
 ---
-
 [.background-color: #171717]
-
 ![fit](before.png)
 
 ---
-
 [.background-color: #171717]
-
 ![fit](after.png)
 
 ---
@@ -38,14 +31,13 @@ slidenumbers: false
 ^ This is what speaker notes look like when you are presenting with a external display, or practicing in rehearsal mode.
 
 ---
-
 [.background-color: #000000]
 
 # What?
 
 ---
-
-[.build-lists: true][.list: alignment(left)]
+[.build-lists: true]
+[.list: alignment(left)]
 
 # What is Prettier?
 
@@ -54,7 +46,6 @@ slidenumbers: false
 - Supports many languages
 
 ---
-
 [.list: alignment(left)]
 
 # Works with the Tools You Use
@@ -67,7 +58,6 @@ slidenumbers: false
 - HTML
 
 ---
-
 [.list: alignment(left)]
 
 # What is Prettier?
@@ -78,10 +68,9 @@ slidenumbers: false
 - Integrates with most editors
 
 ---
+[.list: alignment(left)]
 
 # Editor Support
-
-[.list: alignment(left)]
 
 - Vim
 - Emacs
@@ -91,32 +80,9 @@ slidenumbers: false
 - Visual Studio
 
 ---
-
 [.background-color: #000000]
 
 # Why?
-
----
-
-# Why Prettier?
-
-[.build-lists: true][.list: alignment(left)]
-
-- You press save and code is formatted
-- No need to discuss style in code review
-- Saves you time and energy
-
----
-
-# Why Prettier?
-
-[.build-lists: true][.list: alignment(left)]
-
-- Building and enforcing a style guide
-- Helping newcomers
-- Writing code
-- Easy to adopt
-- Clean up an existing codebase
 
 ---
 
@@ -126,6 +92,29 @@ slidenumbers: false
 
 ---
 
+# Why Prettier?
+
+[.build-lists: true]
+[.list: alignment(left)]
+
+- You press save and code is formatted
+- No need to discuss style in code review
+- Saves you time and energy
+
+---
+
+# Why Prettier?
+
+[.build-lists: true]
+[.list: alignment(left)]
+
+- Building and enforcing a style guide
+- Helping newcomers
+- Writing code
+- Easy to adopt
+- Clean up an existing codebase
+
+---
 [.background-color: #000000]
 
 # How?
@@ -134,23 +123,24 @@ slidenumbers: false
 
 # Add prettier to your project
 
+^ We recommend pinning an exact version of prettier in your package.json as we introduce stylistic changes in patch releases.
+
+---
+[.background-color: #000000]
+
 ```bash
 npm install prettier --save-dev --save-exact
 ```
 
-^ We recommend pinning an exact version of prettier in your package.json as we introduce stylistic changes in patch releases.
-
 ---
+[.build-lists: true]
+[.list: alignment(left)]
 
-# Run Prettier in Your Editor
+# Run Prettier...
 
----
-
-# Run Prettier When Commiting Files
-
-```bash
-npm install pretty-quick husky --save-dev
-```
+- in your editor
+- when commiting files
+- in your CI environment
 
 ---
 
@@ -169,8 +159,8 @@ Great for when you want partial file formatting on your changed/staged files.
 ---
 
 # Prettier vs Linters
-
-[.build-lists: true][.list: alignment(left)]
+[.build-lists: true]
+[.list: alignment(left)]
 
 Linters have two categories of rules:
 
@@ -182,14 +172,12 @@ Linters have two categories of rules:
 ^ Prettier does nothing to help with those kind of rules. They are also the most important ones provided by linters as they are likely to catch real bugs with your code!
 
 ---
+[.text: #ffffff]
+[.header: #ffffff]
+[.background-color: #000000]
 
-# Integrating with ESLint
+![](title.png)
 
----
+github.com/johnwalley/prettier-talk
 
-# Continuous Integration
-
-Other auto formatters?
-Fix build lists
-Checklist (save on format)
-VS Code on separate screen?
+[.footer: www.mulberryhousesoftware.com - github.com/johnwalley - @dowhatimean]
