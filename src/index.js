@@ -1,10 +1,13 @@
-function sum( array ) {
-  let result
+function sum(array) {
+  let result;
 
-  for ( const value of array ) {
-    if (value !== undefined) { result = result === undefined?current:result+current }
+  for (const value of array) {
+    if (value !== undefined) {
+      result = result === undefined ? current : result + current;
+    }
   }
-  return result
+
+  return result;
 }
 
-sum( [1, 2, 3, 4, 5] )
+sum([1, 2, 3, 4, 5]);
