@@ -4,10 +4,8 @@
 
 Content for talk on Prettier at Cambridge Javascript Meetup.
 
-### Checklist
+Other resources:
 
-- [ ] Replace content of src/index.js with examples/sum-unformatted.js
-- [ ] Turn off Format on Save in your editor
-- [ ] Uninstall husky
-- [ ] Open https://github.com/nrwl/precise-commits
-- [ ] Open https://travis-ci.org/johnwalley/prettier-talk
+- [Precise Commits](https://github.com/nrwl/precise-commits)
+- [Formatting on commit](https://prettier.io/docs/en/precommit.html)
+- [Integrating with eslint](https://prettier.io/docs/en/eslint.html)
